@@ -52,10 +52,8 @@ class TestMemoize(unittest.TestCase):
     """This is a Class for Testing Memoize """
 
     def test_memoize(self):
-        """This is to Test that when calling a_property twice, the correct result
-        is returned 
+        """Test calling result twice
         """
-
         class TestClass:
             """ This is a Class for working with memoize """
 
